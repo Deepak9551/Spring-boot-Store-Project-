@@ -1,5 +1,5 @@
 spring:
   datasource:
-    url: ${SPRING_DATASOURCE_URL}
+    url: mysql://root:rkoZyfOeSmpTDOLwELWfYLflwdAXlDyk@caboose.proxy.rlwy.net:12981/railway
 
 website-url: http://localhost:8080
