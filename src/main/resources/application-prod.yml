@@ -1,6 +1,7 @@
 spring:
   datasource:
-    url: ${SPRING_DATASOURCE_URL}
+    url: jdbc:mysql://root:EEdVhlBtijLGSYbhFCQtOhTwYKuifRRQ@ballast.proxy.rlwy.net:46922/railway
+    driver-class-name: com.mysql.cj.jdbc.Driver
 jwt:
   secret: ${JWT_SECRET}
   access-token-expiration: 3600
