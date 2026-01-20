@@ -1,6 +1,8 @@
 spring:
   datasource:
-    url: ${SPRING_DATASOURCE_URL}
+    url: jdbc:mysql://root:EEdVhlBtijLGSYbhFCQtOhTwYKuifRRQ@mysql.railway.internal:3306/railway
+    username: root
+    password: EEdVhlBtijLGSYbhFCQtOhTwYKuifRRQ
 
 jwt:
   secret: ${JWT_SECRET}
