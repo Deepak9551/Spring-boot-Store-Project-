@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 import javax.crypto.SecretKey;
 
-@ConfigurationProperties(prefix = "spring.jwt")
+@ConfigurationProperties(prefix = "jwt")
 @Component
 @Data // This generates the Getters and SETTERS needed for binding
 public class JwtConfig {
