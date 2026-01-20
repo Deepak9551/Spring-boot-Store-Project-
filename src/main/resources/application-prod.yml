@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: mysql://root:rkoZyfOeSmpTDOLwELWfYLflwdAXlDyk@caboose.proxy.rlwy.net:12981/railway
+    url: jdbc:mysql://root:rkoZyfOeSmpTDOLwELWfYLflwdAXlDyk@caboose.proxy.rlwy.net:12981/railway
 
 jwt:
   secret: ${JWT_SECRET}
