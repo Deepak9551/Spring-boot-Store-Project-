@@ -1,9 +1,8 @@
 spring:
   datasource:
-    url: ${SPRING_DATASOURCE_URL}
-      # username aur password Railway variables se aane chahiye
-    username: ${MYSQLUSER}
-    password: ${MYSQLPASSWORD}
+    url: jdbc:mysql://caboose.proxy.rlwy.net:12981/railway
+    username: root
+    password: rkoZyfOeSmpTDOLwELWfYLflwdAXlDyk
 
 jwt:
   secret: ${JWT_SECRET}
