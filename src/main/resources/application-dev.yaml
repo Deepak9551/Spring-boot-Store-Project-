@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mosh2
+    username: root
+    password: 1234sonu
+  jpa:
+    show-sql: true
+
+website-url: http://localhost:8080

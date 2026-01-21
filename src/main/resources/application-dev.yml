@@ -1,5 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:mysql://root:rkoZyfOeSmpTDOLwELWfYLflwdAXlDyk@caboose.proxy.rlwy.net:12981/railway
-
-website-url: http://localhost:8080
